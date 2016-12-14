@@ -1,3 +1,19 @@
+# pelican-knitr
+
+I “forked” pelican-knitr with the following goals:
+
+ - develop support for reStructuredText (there is no reason rmd_reader/pelican-knitr is bound to markdown!)
+ - keep it up to date with recent the Python versions and the current versions of Pelican.
+ - fix smaller annoyances.
+
+
+The original work is from
+[rmd_reader](https://github.com/getpelican/pelican-plugins/tree/master/rmd_reader)
+as it was a part of
+[pelican-plugins](https://github.com/getpelican/pelican-plugins). I preserved
+the versioning history. Below you find the original README.
+
+
 # RMD Reader
 
 This plugin helps you creating posts with knitr's RMarkdown files.
